@@ -60,12 +60,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run precommit"
+      "pre-commit": "npm run precommit"
     }
   },
   "lint-staged": {
     "src/**/*.ts*": [
-      "yarn lint",
+      "npm run lint",
       "prettier --write"
     ]
   }
